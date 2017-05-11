@@ -1,0 +1,258 @@
+@import url(//fonts.googleapis.com/earlyaccess/notosanstc.css);
+@import url("https://fonts.googleapis.com/css?family=Roboto+Slab");
+* {
+  box-sizing: border-box;
+  vertical-align: middle;
+  position: relative;
+  font-family: "Roboto Slab", "Noto Sans TC";
+}
+
+.container {
+  margin: 30px;
+  border: 1px dotted #21ba93;
+  border-radius: 100px;
+  padding: 10px;
+}
+.container .first .photo {
+  display: inline-block;
+  background-image: url("https://firebasestorage.googleapis.com/v0/b/resume-669a4.appspot.com/o/18209800_10155289122803559_44733013_o.jpg?alt=media&token=12fdc83f-a3b9-43e3-9660-31a8e4b54b09");
+  background-size: 250px 333px;
+  background-position: center center;
+  width: 200px;
+  height: 200px;
+  border-radius: 100%;
+  border: none;
+  margin: 20px 40px;
+}
+.container .first .word {
+  width: 50%;
+  display: inline-block;
+}
+.container .first .word h4 {
+  margin: 0;
+}
+.container .first .word h2 {
+  margin: 7px 0;
+  letter-spacing: 1px;
+}
+.container .first .word .inline {
+  display: inline-block;
+}
+.container .first .word .inline .icons {
+  color: grey;
+  font-size: 35px;
+  padding: 5px;
+  padding-top: 20px;
+}
+.container .first .word .inline .icons:hover {
+  color: blue;
+}
+.container .second {
+  display: inline-block;
+  margin: 10px;
+  width: 25%;
+}
+.container .second .skills {
+  margin: 20px 0;
+  font-size: 12px;
+}
+.container .second .skills h1 {
+  font-size: 30px;
+  color: #ea5f46;
+}
+.container .second .skills .switch {
+  margin: 0;
+  display: inline-block;
+  border-radius: 20px;
+  padding: 7px;
+  margin: 7px;
+}
+.container .second .skills .switch-r {
+  border: 2px #ea5f46 solid;
+  color: #ea5f46;
+}
+.container .second .skills .switch-r:hover {
+  background-color: #ea5f46;
+  color: white;
+}
+.container .second .skills .switch-y {
+  background-color: white;
+  border: 2px #e09f11 solid;
+  color: #e09f11;
+}
+.container .second .skills .switch-y:hover {
+  background-color: #e09f11;
+  color: white;
+}
+.container .second .skills .switch-g {
+  border: 2px #21ba93 solid;
+  color: #21ba93;
+}
+.container .second .skills .switch-g:hover {
+  background-color: #21ba93;
+  color: white;
+}
+.container .second .skills .switch-all {
+  border: 2px grey solid;
+  color: grey;
+  padding: 10px 20px;
+}
+.container .second .skills .switch-all:hover {
+  background-color: grey;
+  color: white;
+}
+.container .second .skills .light {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  border-radius: 100%;
+  margin: 0 10px;
+}
+.container .second .skills .begin {
+  background-color: #ea5f46;
+}
+.container .second .skills .medium {
+  background-color: #e09f11;
+}
+.container .second .skills .expert {
+  background-color: #21ba93;
+}
+.container .second .bar {
+  padding: 10px 0;
+  margin: 10px;
+  font-size: 20px;
+}
+.container .second .red {
+  display: none;
+}
+.container .second .btn {
+  display: inline-block;
+  padding: 5px;
+  margin: 3px;
+  border-radius: 10px;
+  border: 1px black solid;
+}
+.container .second .begin {
+  color: #ea5f46;
+  border: 1px #ea5f46 solid;
+  opacity: 0.8;
+}
+.container .second .begin:hover {
+  color: white;
+  background-color: #ea5f46;
+  opacity: 1;
+}
+.container .second .medium {
+  color: #e09f11;
+  border: 1px #e09f11 solid;
+  opacity: 0.8;
+}
+.container .second .medium:hover {
+  color: white;
+  background-color: #e09f11;
+  opacity: 1;
+}
+.container .second .expert {
+  color: #21ba93;
+  border: 1px #21ba93 solid;
+  opacity: 0.8;
+}
+.container .second .expert:hover {
+  color: white;
+  background-color: #21ba93;
+  opacity: 1;
+}
+.container .third {
+  display: inline-block;
+  vertical-align: top;
+  margin: 10px 30px;
+  width: 30%;
+}
+.container .third h1 {
+  color: #ea5f46;
+}
+.container .third .word {
+  overflow: hidden;
+  transition: ease-in 0.5s;
+}
+.container .third .word h2 {
+  font-size: 20px;
+  border: 0.5px #21ba93 solid;
+  padding: 10px;
+  border-radius: 20px;
+  display: inline-block;
+}
+.container .third .word-less1, .container .third .word-less2, .container .third .word-less3, .container .third .word-less4, .container .third .word-less5 {
+  display: none;
+}
+.container .third .startup {
+  color: #37babf;
+}
+.container .third .startup:hover {
+  opacity: 0.7;
+}
+.container .third .go {
+  width: 80px;
+  text-align: center;
+  margin-top: 10px;
+  padding: 10px;
+  border-radius: 30px;
+  border: #37babf solid 2px;
+  color: #37babf;
+}
+.container .third .go:hover {
+  background-color: #37babf;
+}
+.container .third .go:hover a {
+  color: white;
+}
+.container .third .go a {
+  text-decoration: none;
+  color: #37babf;
+}
+.container .third .none {
+  color: grey;
+}
+.container .fourth {
+  display: inline-block;
+  width: 30%;
+  vertical-align: top;
+  margin: 10px 0;
+}
+.container .fourth div {
+  margin: 30px 0;
+}
+.container .fourth h1 {
+  color: #ea5f46;
+}
+.container .fourth .projects {
+  border: 2px #ea5f46 dashed;
+  border-radius: 100%;
+  width: 300px;
+  height: 300px;
+  opacity: 0.6;
+}
+.container .fourth .projects:hover {
+  opacity: 0.9;
+  border: none;
+}
+.container .fourth .projects:visited {
+  opacity: 0.3;
+}
+
+@media (min-width: 801px) and (max-width: 1000px) {
+  .container .first .word {
+    width: 100%;
+  }
+  .container .second, .container .third, .container .fourth {
+    width: 45%;
+  }
+}
+@media (max-width: 800px) {
+  .container .first .word {
+    width: 100%;
+  }
+  .container .second, .container .third, .container .fourth {
+    width: 100%;
+  }
+}

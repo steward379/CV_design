@@ -1,0 +1,216 @@
+$begin: #ea5f46
+$medium: #e09f11
+$expert: #21ba93
+
+@import url(//fonts.googleapis.com/earlyaccess/notosanstc.css)
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab')
+
+*
+  // border: 1px black solid
+  box-sizing: border-box
+  vertical-align: middle
+  position: relative
+  font-family: 'Roboto Slab', 'Noto Sans TC'
+  
+.container
+  margin: 30px
+  border: 1px dotted $expert
+  border-radius: 100px
+  padding: 10px
+  .first
+    .photo
+      display: inline-block
+      background-image: url("https://firebasestorage.googleapis.com/v0/b/resume-669a4.appspot.com/o/18209800_10155289122803559_44733013_o.jpg?alt=media&token=12fdc83f-a3b9-43e3-9660-31a8e4b54b09")
+      background-size: 250px 333px
+      background-position: center center
+      width: 200px
+      height: 200px
+      border-radius: 100%
+      border: none
+      margin: 20px 40px
+    .word
+      width: 50%
+      display: inline-block
+      h4
+        margin: 0
+      h2
+        margin: 7px 0
+        letter-spacing: 1px
+      .inline
+        display: inline-block
+        .icons
+          color: grey
+          font-size: 35px
+          padding: 5px
+          padding-top: 20px
+          &:hover
+            color: blue
+  .second
+    display: inline-block
+    margin: 10px
+    width: 25%
+    .skills
+      margin: 20px 0
+      font-size: 12px
+      h1
+        font-size: 30px
+        color: #ea5f46
+      .switch
+        margin: 0
+        display: inline-block
+        border-radius: 20px
+        padding: 7px
+        margin: 7px
+      .switch-r
+        border: 2px $begin solid
+        color: $begin
+        &:hover
+          background-color: $begin
+          color: white
+      .switch-y
+        background-color: white
+        border: 2px $medium solid
+        color: $medium
+        &:hover
+          background-color: $medium
+          color: white
+      .switch-g
+        border: 2px $expert solid
+        color: $expert
+        &:hover
+          background-color: $expert
+          color: white
+      .switch-all
+        border: 2px grey solid
+        color: grey
+        padding: 10px 20px
+        &:hover
+          background-color: grey
+          color: white
+      .light
+        display: inline-block
+        width: 20px
+        height: 20px
+        border-radius: 100%
+        margin: 0 10px
+      .begin
+        background-color: $begin
+      .medium
+        background-color: $medium
+      .expert
+        background-color: $expert
+    .bar
+      padding: 10px 0
+      margin: 10px
+      font-size: 20px
+    .red
+      display: none
+    .btn
+      display: inline-block
+      padding: 5px
+      margin: 3px
+      border-radius: 10px
+      border: 1px black solid
+    .begin
+      color: $begin
+      border: 1px $begin solid
+      opacity: 0.8
+      &:hover
+        color: white
+        background-color: $begin
+        opacity: 1
+    .medium
+      color: $medium
+      border: 1px $medium solid
+      opacity: 0.8
+      &:hover
+        color: white
+        background-color: $medium
+        opacity: 1
+    .expert  
+      color: $expert
+      border: 1px $expert solid
+      opacity: 0.8
+      &:hover
+        color: white
+        background-color: $expert
+        opacity: 1
+      
+  .third
+    display: inline-block
+    vertical-align: top
+    margin: 10px 30px
+    width: 30%
+    h1
+      color: #ea5f46
+    .word
+      overflow: hidden
+      transition: ease-in 0.5s
+      h2
+        font-size: 20px
+        border: 0.5px #21ba93 solid
+        padding: 10px
+        border-radius: 20px
+        display: inline-block
+    .word-less1, .word-less2, .word-less3, .word-less4, .word-less5
+      display: none
+    .startup
+      color: #37babf
+      &:hover
+        opacity: 0.7
+    .go
+      width: 80px
+      text-align: center
+      margin-top: 10px
+      padding: 10px
+      border-radius: 30px
+      border: #37babf solid 2px
+      color: #37babf
+      &:hover
+        background-color: #37babf
+        a
+          color: white
+      a
+        text-decoration: none
+        color: #37babf
+      
+    .none
+      color: grey
+      
+  .fourth
+    display: inline-block
+    width: 30%
+    vertical-align: top
+    margin: 10px 0
+    div
+      margin: 30px 0
+    h1
+      color: #ea5f46
+    .projects
+      border: 2px $begin dashed
+      border-radius: 100%
+      width: 300px
+      height: 300px
+      opacity: 0.6
+      &:hover
+        opacity: 0.9
+        border: none
+      &:visited
+        opacity: 0.3
+
+@media (min-width: 801px) and (max-width: 1000px)
+  .container
+    .first
+      .word
+        width: 100%
+    .second, .third, .fourth
+      width: 45%
+
+
+@media (max-width: 800px)
+  .container
+    .first
+      .word
+        width: 100%
+    .second, .third, .fourth
+      width: 100%
