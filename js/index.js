@@ -36,3 +36,4 @@ $(".word4").click(function () {
 $(".word5").click(function () {
   $(".word-less5").toggle("normal");
 });
+$("body").css("zoom","70%");
