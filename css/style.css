@@ -7,11 +7,19 @@
   font-family: "Roboto Slab", "Noto Sans TC";
 }
 
+body {
+  margin: auto;
+}
+
 .container {
-  margin: 30px;
   border: 1px dotted #21ba93;
   border-radius: 100px;
   padding: 10px;
+  max-width: 900px;
+  padding: auto;
+  margin: auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 .container .first .photo {
   display: inline-block;
@@ -240,6 +248,11 @@
   opacity: 0.3;
 }
 
+@media (min-width: 1001px) {
+  .container {
+    max-width: 900px;
+  }
+}
 @media (min-width: 801px) and (max-width: 1000px) {
   .container .first .word {
     width: 100%;
