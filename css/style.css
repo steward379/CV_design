@@ -8,6 +8,9 @@
   margin: auto;
 }
 
+body {
+  margin: auto;
+}
 .container {
   margin: 30px;
   border: 1px dotted #21ba93;
