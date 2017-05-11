@@ -261,3 +261,9 @@
     width: 100%;
   }
 }
+@media (min-width: 1001px){
+  .container {
+    max-width: 900px;
+  }
+}
+
