@@ -5,23 +5,19 @@
     vertical-align: middle;
     position: relative;
     font-family: "Roboto Slab", "Noto Sans TC";
-    margin: auto;
-}
-
-body {
-    margin: auto;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
 }
 
 .container {
-    margin: 30px;
+    margin: 20px;
+    padding: 20px;
     border: 1px dotted #21ba93;
     border-radius: 100px;
-    padding: 10px;
-    max-width: 900px margin: auto margin-top: 30px margin-bottom: 30px
+    max-width: 900px;
+    margin: auto;
+}
+
+.container .first {
+    padding: 20px;
 }
 
 .container .first .photo {
@@ -336,10 +332,7 @@ body {
     .container .fourth {
         width: 100%;
     }
-}
-
-@media (min-width: 1001px) {
-    .container {
-        max-width: 900px;
+    .container .fourth .line {
+        margin-left: 0;
     }
 }
