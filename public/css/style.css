@@ -71,6 +71,10 @@ body {
     width: 25%;
 }
 
+.container .second h1 {
+    color: #ea5f46;
+}
+
 .container .second .skills {
     margin: 20px 0;
     font-size: 12px;
@@ -208,7 +212,7 @@ body {
 .container .third {
     display: inline-block;
     vertical-align: top;
-    margin: 10px 30px;
+    margin: 10px;
     width: 30%;
 }
 
@@ -219,7 +223,7 @@ body {
 .container .third .word {
     overflow: hidden;
     transition: ease-in 0.5s;
-    margin-bottom: 20px
+    margin-top: 30px;
 }
 
 .container .third .word h2 {
@@ -281,11 +285,16 @@ body {
 }
 
 .container .fourth div {
-    margin: 30px 0;
+    margin: 30px 20px;
 }
 
 .container .fourth h1 {
     color: #ea5f46;
+    padding: 0;
+}
+
+.container .fourth .line {
+    display: inline-block;
 }
 
 .container .fourth .projects {
@@ -310,9 +319,11 @@ body {
         width: 100%;
     }
     .container .second,
-    .container .third,
-    .container .fourth {
+    .container .third {
         width: 45%;
+    }
+    .container .fourth {
+        width: 100%;
     }
 }
 
